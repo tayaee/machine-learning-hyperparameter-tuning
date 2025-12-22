@@ -4,6 +4,7 @@ import os
 
 st.set_page_config(page_title="Visa Prediction", layout="wide")
 st.title("Visa Approval Predictor")
+st.markdown("https://github.com/tayaee/machine-learning-hyperparameter-tuning")
 
 model_dir = "data"
 if os.path.exists(model_dir):
